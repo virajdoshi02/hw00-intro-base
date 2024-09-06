@@ -91,7 +91,6 @@ function main() {
       cube,
     ]);
     u_tick+=1;
-
     stats.end();
 
     // Tell the browser to call `tick` again whenever it renders a new frame
