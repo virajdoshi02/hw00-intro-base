@@ -1,5 +1,10 @@
 # HW 0: Intro to Javascript and WebGL
 
+## Description
+
+<img width="1436" alt="Screenshot 2024-09-08 at 11 41 37 AM" src="https://github.com/user-attachments/assets/96478304-291f-4932-ab6d-c2dc08ef8e68">
+I created a cube in the scene, then created a fragment shader that used fbm to get that unique marble texture that we saw in class. After that, I created a vertex shader that used sin and cos functions to non-uniformly warp the x, y and z coordinates of every vertex. I also made sure to modify the vertex coords passed to the fragment shader, meaning that it perfectly wraps around the cube even when the vertices move, so the textures on all sides of the cube cleanly connect and change when the vertex coords change. If you look at https://virajdoshi02.github.io/hw00-intro-base/, you can see how the marble texture on the cube remains unbroken no matter what happens to the cube.
+
 <p align="center">
   <img width="360" height="360" src="https://user-images.githubusercontent.com/1758825/132532354-e3a45402-e484-499e-bfa7-2d73b9f2c946.png">
 </p>
